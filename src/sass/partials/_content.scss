@@ -1,3 +1,64 @@
 .content {
   padding: 2rem;
 }
+
+.intro {
+	position: relative;
+	min-height: 800px;
+	background: url("../images/bg-intro-mrfrontend.png")50%/cover no-repeat;
+	text-align: center;
+	padding-top: 200px;
+	color: $white;
+	h1 {
+		
+	}
+	p {
+		line-height: 30pt;
+		font-size: 18px;
+				}
+	a {
+		top: 100px;
+	}
+	button.button--pink {
+		text-decoration: none;
+		background: none;
+		color: $white;
+		border-radius: 28px;
+		border: solid 2px $pink;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 20px;
+		&:hover {
+			background: $pink;
+  
+		}
+	}
+
+}
+
+.technologies {
+	text-align: center;
+	position: relative;
+	h2 {
+		color:$darkblue;
+		font-size: 32px;
+		padding-top: 100px;
+	}
+	#slider {
+		list-style:none;
+		padding-bottom: 150px;
+		padding-top: 95px;
+		li {
+			width:240px;
+			margin: 0 auto;
+			a {
+				img {
+					margin:0px; 
+					display:inline-block
+				}
+			}
+		}
+	}
+}
