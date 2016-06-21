@@ -17,36 +17,10 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* --------------------------------
-
-Main components
-
--------------------------------- */
-header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
-header h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-@media only screen and (min-width: 1170px) {
-  header {
-    height: 300px;
-    line-height: 300px;
-  }
-  header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-}
 
 #guidelines {
   position: relative;
-
+	
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -117,14 +91,21 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-.guidelines-img.cd-picture {
-  background: #75ce66;
+.guidelines-img.bg-pink {
+  background: $pink;
+}
+.guidelines-img.bg-grey {
+  background: $grey;
+	&:hover {
+		background: $pink;
+	}
 }
 .signup  {
-	margin: 0;
+	  margin-left: -40px;
+  margin-top: -40px;
 		text-decoration: none;
-		background: none;
-		color: $pink;
+		background: $pink;
+		color: $white;
 		border-radius: 28px;
 		border: solid 2px $pink;
 		padding-top: 5px;
