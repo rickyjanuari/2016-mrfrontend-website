@@ -1,5 +1,5 @@
 .content {
-  padding: 2rem;
+	padding: 2rem;
 }
 
 .intro {
@@ -10,13 +10,11 @@
 	padding-top: 275px;
 	padding-bottom: 200px;
 	color: $white;
-	h1 {
-		
-	}
+	h1 {}
 	p {
 		line-height: 30pt;
 		font-size: 18px;
-				}
+	}
 	a {
 		top: 100px;
 	}
@@ -33,10 +31,8 @@
 		font-size: 20px;
 		&:hover {
 			background: $pink;
-  
 		}
 	}
-
 }
 
 .technologies {
@@ -45,20 +41,19 @@
 	text-align: center;
 	position: relative;
 	h2 {
-		color:$darkblue;
+		color: $darkblue;
 		font-size: 32px;
-		
 	}
 	#slider {
-		list-style:none;
+		list-style: none;
 		padding-top: 95px;
 		li {
-			width:240px;
+			width: 240px;
 			margin: 0 auto;
 			a {
 				img {
-					margin:0px; 
-					display:inline-block
+					margin: 0px;
+					display: inline-block
 				}
 			}
 		}
@@ -77,8 +72,8 @@
 	}
 	img {
 		display: block;
-    margin-left: auto;
-    margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 		padding-bottom: 55px;
 	}
 	h3 {
@@ -113,27 +108,25 @@
 			font-weight: bold;
 		}
 	}
-	
 }
 
 .recent-posts {
+	padding-top: 100px;
+	padding-bottom: 100px;
 	h2 {
 		text-align: center;
+		padding-bottom: 80px;
 	}
 	article {
-		img {
-			padding: 0;
-		}	
-		background: $lightgrey;
-			padding-top: 0px;
-			padding-left: 0px;
-		padding-right: 10px;
-		a {
-		text-align: center;
-	}
 		
 	}
-	
+	h3 {
+		text-align: center;
+		a {
+			text-decoration: none;
+			color: $pink;
+		}
+	}
 }
 
 .join {
@@ -142,7 +135,6 @@
 	padding-bottom: 55px;
 	text-align: center;
 	h2 {
-		
 		color: $white;
 		padding-bottom: 35px;
 	}
@@ -160,8 +152,6 @@
 		&:hover {
 			background: $lightgrey;
 			color: $pink;
-  
 		}
 	}
 }
-
